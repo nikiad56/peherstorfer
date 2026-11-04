@@ -1,0 +1,344 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Peherstorfer – Redesign-Entwurf (klassisch)</title>
+<meta name="description" content="Redesign-Entwurf: Palettenversand in ganz Österreich am nächsten Werktag – Peherstorfer GmbH, Allhaming.">
+<link rel="icon" href="assets/next24.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,700;0,800;1,800&amp;family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+a{color:#082B5A}a:hover{color:#051C3D}
+.wrap{max-width:1240px;margin:0 auto;padding:0 32px;box-sizing:border-box}
+.g2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:56px}
+.g3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}
+.g4{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:24px}
+.hero{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);gap:64px;align-items:center}
+.zones{display:grid;grid-template-columns:repeat(9,minmax(0,1fr));gap:10px}
+.split{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr)}
+.navlinks a{color:#FFFFFF;text-decoration:none}
+.navlinks a:hover{color:#FFFFFF;text-decoration:underline;text-decoration-color:#FFD500;text-decoration-thickness:3px;text-underline-offset:10px}
+.dark a{color:#FFFFFF}.dark a:hover{color:#FFD500}
+details summary{cursor:pointer;list-style:none}
+details summary::-webkit-details-marker{display:none}
+details[open] .plus{transform:rotate(45deg)}
+input,select{font:inherit}
+@media (max-width:1060px){
+.navlinks,.util-r,.hdr-phone{display:none !important}
+.burger{display:flex !important}
+}
+@media (max-width:960px){
+.g2,.hero,.split{grid-template-columns:minmax(0,1fr);gap:40px}
+.g3,.g4{grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.zones{grid-template-columns:repeat(3,minmax(0,1fr))}
+.h1{font-size:52px !important}
+.h2{font-size:40px !important}
+.split-txt{padding:48px 24px !important}
+}
+@media (max-width:600px){
+.g3,.g4{grid-template-columns:minmax(0,1fr)}
+.wrap{padding:0 16px}
+.h1{font-size:42px !important}
+.stats{grid-template-columns:repeat(2,minmax(0,1fr)) !important}
+.logo{height:40px !important}
+.hdr-cta{display:none !important}
+.h2{font-size:34px !important;hyphens:auto;overflow-wrap:break-word}
+.pano{height:260px !important}
+}
+</style>
+<style>html{scroll-behavior:smooth}</style>
+</head>
+<body>
+<div style="font-family: Inter, system-ui, sans-serif; color: #0B1B33; background: #FFFFFF; font-size: 16px; line-height: 1.55;">
+
+<div class="dark" style="background: #051C3D; color: #C5D0E3; font-size: 13px;">
+<div class="wrap" style="display: flex; justify-content: space-between; align-items: center; height: 40px; gap: 16px;">
+<span>Disposition Mo–Fr 06:00–19:30 · <a href="tel:+43722720052" style="text-decoration: none; font-weight: 600;">+43 7227 200 52</a></span>
+<span class="util-r" style="display: flex; gap: 24px;"><a href="#tracking" style="text-decoration: none;">Sendung verfolgen</a><a href="#portal" style="text-decoration: none;">Kundenportal</a><a href="#karriere" style="text-decoration: none;">Karriere</a></span>
+</div>
+</div>
+
+<header style="background: #082B5A; position: sticky; top: 0; z-index: 10; border-bottom: 1px solid rgba(255,255,255,0.08);">
+<div class="wrap" style="display: flex; align-items: center; justify-content: space-between; height: 84px; gap: 24px;">
+<a href="#top" aria-label="Peherstorfer Transport &amp; Logistik – Startseite" style="display: flex; align-items: center;"><img src="assets/logo_peh.png" class="logo" alt="Peherstorfer Transport &amp; Logistik" style="height: 52px; width: auto; display: block;"></a>
+<nav class="navlinks" aria-label="Hauptnavigation" style="display: flex; gap: 32px; font-weight: 600; font-size: 15px;">
+<a href="#next24">Austria Next24</a>
+<a href="#leistungen">Leistungen</a>
+<a href="#fuhrpark">Fuhrpark</a>
+<a href="#unternehmen">Unternehmen</a>
+<a href="#kontakt">Kontakt</a>
+</nav>
+<div style="display: flex; align-items: center; gap: 20px;">
+<a class="hdr-phone" href="tel:0800241224" style="display: flex; flex-direction: column; text-decoration: none; line-height: 1.2; color: #FFFFFF;">
+<span style="font-size: 11px; color: #C5D0E3; font-weight: 600; text-transform: uppercase; letter-spacing: 0.06em;">Kostenlos anrufen</span>
+<span style="font-weight: 700; font-size: 17px; color: #FFFFFF;">0800 24 12 24</span>
+</a>
+<a class="hdr-cta" href="#preis" style="display: inline-flex; align-items: center; height: 48px; padding: 0 22px; background: #FFD500; color: #082B5A; font-weight: 700; font-size: 15px; text-decoration: none; border-radius: 8px;">Preis berechnen</a>
+<button class="burger" aria-label="Menü öffnen" style="display: none; width: 48px; height: 48px; align-items: center; justify-content: center; border: 1.5px solid rgba(255,255,255,0.4); background: transparent; border-radius: 8px;">
+<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"></path></svg>
+</button>
+</div>
+</div>
+</header>
+
+<section id="top" style="background: #082B5A; color: #FFFFFF; padding: 80px 0 96px;">
+<div class="wrap hero">
+<div style="display: flex; flex-direction: column; gap: 28px;">
+<span style="display: inline-flex; align-self: flex-start; align-items: center; gap: 10px; font-size: 13px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: #FFD500;"><span style="width: 28px; height: 3px; background: #FFD500;"></span>Palettenversand Österreich</span>
+<h1 class="h1" style="margin: 0; font-family: 'Barlow Condensed', sans-serif; font-weight: 800; font-size: 78px; line-height: 0.97; letter-spacing: -0.005em; text-transform: uppercase;">Heute abgeholt.<br><span style="color: #FFD500;">Morgen zugestellt.</span><br>In ganz Österreich.</h1>
+<p style="margin: 0; font-size: 19px; color: #D5DEEC; max-width: 540px;">Abholung, Zustellung und Hebebühne im Grundpreis. Persönlich disponiert aus Allhaming – online nachverfolgbar bis zur Zustellung.</p>
+<ul style="margin: 0; padding: 0; list-style: none; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px 24px; font-size: 15px; max-width: 540px;">
+<li style="display: flex; gap: 10px; align-items: center;"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#FFD500" stroke-width="3" aria-hidden="true"><path d="M4 12l5 5L20 6"></path></svg>Bis 18 Paletten / 8,5 t</li>
+<li style="display: flex; gap: 10px; align-items: center;"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#FFD500" stroke-width="3" aria-hidden="true"><path d="M4 12l5 5L20 6"></path></svg>Hebebühne inklusive</li>
+<li style="display: flex; gap: 10px; align-items: center;"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#FFD500" stroke-width="3" aria-hidden="true"><path d="M4 12l5 5L20 6"></path></svg>Alle 9 Bundesländer</li>
+<li style="display: flex; gap: 10px; align-items: center;"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#FFD500" stroke-width="3" aria-hidden="true"><path d="M4 12l5 5L20 6"></path></svg>Direkt erreichbar, kein Callcenter</li>
+</ul>
+</div>
+
+<form id="preis" aria-label="Richtpreis berechnen" style="background: #FFFFFF; color: #0B1B33; border-radius: 16px; padding: 32px; display: flex; flex-direction: column; gap: 18px; box-shadow: 0 24px 60px rgba(3,14,32,0.35); border-top: 6px solid #FFD500;">
+<div style="display: flex; justify-content: space-between; align-items: center; gap: 16px;">
+<img src="assets/next24.png" alt="Austria Next24" style="height: 52px; width: auto; display: block;">
+<div style="text-align: right;">
+<div style="font-size: 12px; font-weight: 600; color: #4A5872; text-transform: uppercase; letter-spacing: 0.06em;">pro Palette ab</div>
+<div style="font-family: 'Barlow Condensed', sans-serif; font-weight: 800; font-size: 42px; line-height: 1; color: #082B5A;">€ 47,50</div>
+</div>
+</div>
+<div>
+<div style="font-family: 'Barlow Condensed', sans-serif; font-weight: 800; font-size: 30px; line-height: 1; text-transform: uppercase; color: #082B5A;">Was kostet Ihre Palette?</div>
+<div style="font-size: 14px; color: #4A5872; margin-top: 6px;">Richtpreis in 10 Sekunden – unverbindlich.</div>
+</div>
+<div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px;">
+<label style="display: flex; flex-direction: column; gap: 6px; font-size: 13px; font-weight: 600;">Abhol-PLZ<input type="text" inputmode="numeric" placeholder="z. B. 4511" style="height: 52px; border: 1.5px solid #C9D3E2; border-radius: 8px; padding: 0 14px; font-size: 16px; background: #F7F9FC; color: #0B1B33;"></label>
+<label style="display: flex; flex-direction: column; gap: 6px; font-size: 13px; font-weight: 600;">Zustell-PLZ<input type="text" inputmode="numeric" placeholder="z. B. 1010" style="height: 52px; border: 1.5px solid #C9D3E2; border-radius: 8px; padding: 0 14px; font-size: 16px; background: #F7F9FC; color: #0B1B33;"></label>
+</div>
+<label style="display: flex; flex-direction: column; gap: 6px; font-size: 13px; font-weight: 600;">Anzahl Paletten
+<select style="height: 52px; border: 1.5px solid #C9D3E2; border-radius: 8px; padding: 0 12px; font-size: 16px; background: #F7F9FC; color: #0B1B33;"><option>1 Palette</option><option>2 Paletten</option><option>3–5 Paletten</option><option>6–18 Paletten</option></select>
+</label>
+<button type="button" style="height: 56px; border: 0; border-radius: 8px; background: #FFD500; color: #082B5A; font-weight: 700; font-size: 16px; display: flex; align-items: center; justify-content: center; gap: 10px; cursor: pointer;">Richtpreis anzeigen
+<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#082B5A" stroke-width="2.5" stroke-linecap="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></button>
+<div style="display: flex; justify-content: space-between; gap: 12px; font-size: 13px; color: #4A5872; flex-wrap: wrap;">
+<span>Buchungsschluss heute: <strong style="color: #0B1B33;">[UHRZEIT] Uhr</strong></span>
+<a href="#kontakt" style="font-weight: 600;">Lieber persönlich? Rückruf anfordern</a>
+</div>
+</form>
+</div>
+</section>
+
+<section aria-label="Fuhrpark am Standort Allhaming" style="background: #082B5A;">
+<img class="pano" src="assets/fuhrpark-panorama.webp" alt="Der Peherstorfer-Fuhrpark am Logistikzentrum Oberösterreich in Allhaming" style="display: block; width: 100%; height: 560px; object-fit: cover; object-position: center 62%;">
+</section>
+
+<section aria-label="Kennzahlen" style="background: #FFD500; color: #082B5A;">
+<div class="wrap stats" style="display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 24px; padding-top: 40px; padding-bottom: 40px;">
+<div><div style="font-family: 'Barlow Condensed', sans-serif; font-weight: 800; font-size: 58px; line-height: 1;">30+</div><div style="font-size: 14px; font-weight: 600;">Jahre Erfahrung, seit 1995</div></div>
+<div><div style="font-family: 'Barlow Condensed', sans-serif; font-weight: 800; font-size: 58px; line-height: 1;">~120</div><div style="font-size: 14px; font-weight: 600;">Mitarbeiterinnen &amp; Mitarbeiter</div></div>
+<div><div style="font-family: 'Barlow Condensed', sans-serif; font-weight: 800; font-size: 58px; line-height: 1;">9</div><div style="font-size: 14px; font-weight: 600;">Bundesländer am nächsten Werktag</div></div>
+<div><div style="font-family: 'Barlow Condensed', sans-serif; font-weight: 800; font-size: 58px; line-height: 1;">40 t</div><div style="font-size: 14px; font-weight: 600;">Eigener Fuhrpark – bis zum WAB-Zug</div></div>
+</div>
+</section>
+
+<section id="next24" style="padding: 112px 0 64px; background: #FFFFFF;">
+<div class="wrap g2" style="align-items: end;">
+<div style="display: flex; flex-direction: column; gap: 20px;">
+<span style="font-size: 13px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: #4A5872;">Austria Next24</span>
+<h2 class="h2" style="margin: 0; font-family: 'Barlow Condensed', sans-serif; font-weight: 800; font-size: 54px; line-height: 1; text-transform: uppercase; color: #082B5A;">Ein Preis pro Zone.<br>Kein Kleingedrucktes.</h2>
+<p style="margin: 0; font-size: 18px; color: #3B4A63;">Ihre Paletten fahren ab Allhaming in neun Preiszonen durch ganz Österreich – am nächsten Werktag (Next24) oder günstiger am übernächsten (Next48).</p>
+</div>
+<div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px;">
+<div style="background: #F2F5FA; border-radius: 10px; padding: 18px;"><div style="font-size: 12px; font-weight: 700; color: #4A5872; text-transform: uppercase; letter-spacing: 0.06em;">Max. pro Auftrag</div><div style="font-weight: 700; font-size: 18px; margin-top: 4px; color: #082B5A;">18 Paletten · 8,5 t</div></div>
+<div style="background: #F2F5FA; border-radius: 10px; padding: 18px;"><div style="font-size: 12px; font-weight: 700; color: #4A5872; text-transform: uppercase; letter-spacing: 0.06em;">Pro Palette</div><div style="font-weight: 700; font-size: 18px; margin-top: 4px; color: #082B5A;">bis 850 kg</div></div>
+<div style="background: #F2F5FA; border-radius: 10px; padding: 18px;"><div style="font-size: 12px; font-weight: 700; color: #4A5872; text-transform: uppercase; letter-spacing: 0.06em;">Max. Ladeeinheit</div><div style="font-weight: 700; font-size: 18px; margin-top: 4px; color: #082B5A;">400 × 200 × 220 cm</div></div>
+<div style="background: #F2F5FA; border-radius: 10px; padding: 18px;"><div style="font-size: 12px; font-weight: 700; color: #4A5872; text-transform: uppercase; letter-spacing: 0.06em;">Im Grundpreis</div><div style="font-weight: 700; font-size: 18px; margin-top: 4px; color: #082B5A;">Abholung, Zustellung, Hebebühne</div></div>
+</div>
+</div>
+</section>
+
+<section id="zonen" aria-labelledby="zonen-h" style="background: #FFFFFF; padding: 0 0 112px;">
+<div class="wrap">
+<div style="background: #082B5A; border-radius: 20px; padding: 56px 48px 40px; color: #FFFFFF; display: flex; flex-direction: column; gap: 36px;">
+<div style="display: flex; justify-content: space-between; align-items: flex-end; gap: 24px; flex-wrap: wrap;">
+<div style="display: flex; flex-direction: column; gap: 10px;">
+<span style="font-size: 13px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: #FFD500;">Preiszonen</span>
+<h2 id="zonen-h" class="h2" style="margin: 0; font-family: 'Barlow Condensed', sans-serif; font-weight: 800; font-size: 48px; line-height: 1; text-transform: uppercase;">9 Zonen · Zentrum Allhaming</h2>
+</div>
+<p style="margin: 0; color: #C5D0E3; max-width: 380px; font-size: 15px;">Je weiter vom Zentrum, desto höher die Zone. Ihre Zone ergibt sich automatisch aus der Zustell-PLZ.</p>
+</div>
+<img src="assets/zonen.webp" alt="Österreichkarte mit neun ringförmigen Preiszonen rund um Allhaming in Oberösterreich" style="display: block; width: 100%; height: auto;">
+<div class="zones">
+<div style="background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.14); border-radius: 10px; padding: 14px 8px; text-align: center;"><div style="width: 34px; height: 34px; margin: 0 auto 8px; border-radius: 999px; background: #FFD500; color: #082B5A; font-weight: 800; display: flex; align-items: center; justify-content: center;">1</div><div style="font-weight: 700;">€ 47,50</div></div>
+<div style="background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.14); border-radius: 10px; padding: 14px 8px; text-align: center;"><div style="width: 34px; height: 34px; margin: 0 auto 8px; border-radius: 999px; background: #FFD500; color: #082B5A; font-weight: 800; display: flex; align-items: center; justify-content: center;">2</div><div style="font-weight: 700;">€ [–]</div></div>
+<div style="background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.14); border-radius: 10px; padding: 14px 8px; text-align: center;"><div style="width: 34px; height: 34px; margin: 0 auto 8px; border-radius: 999px; background: #FFD500; color: #082B5A; font-weight: 800; display: flex; align-items: center; justify-content: center;">3</div><div style="font-weight: 700;">€ [–]</div></div>
+<div style="background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.14); border-radius: 10px; padding: 14px 8px; text-align: center;"><div style="width: 34px; height: 34px; margin: 0 auto 8px; border-radius: 999px; background: #FFD500; color: #082B5A; font-weight: 800; display: flex; align-items: center; justify-content: center;">4</div><div style="font-weight: 700;">€ [–]</div></div>
+<div style="background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.14); border-radius: 10px; padding: 14px 8px; text-align: center;"><div style="width: 34px; height: 34px; margin: 0 auto 8px; border-radius: 999px; background: #FFD500; color: #082B5A; font-weight: 800; display: flex; align-items: center; justify-content: center;">5</div><div style="font-weight: 700;">€ [–]</div></div>
+<div style="background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.14); border-radius: 10px; padding: 14px 8px; text-align: center;"><div style="width: 34px; height: 34px; margin: 0 auto 8px; border-radius: 999px; background: #FFD500; color: #082B5A; font-weight: 800; display: flex; align-items: center; justify-content: center;">6</div><div style="font-weight: 700;">€ [–]</div></div>
+<div style="background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.14); border-radius: 10px; padding: 14px 8px; text-align: center;"><div style="width: 34px; height: 34px; margin: 0 auto 8px; border-radius: 999px; background: #FFD500; color: #082B5A; font-weight: 800; display: flex; align-items: center; justify-content: center;">7</div><div style="font-weight: 700;">€ [–]</div></div>
+<div style="background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.14); border-radius: 10px; padding: 14px 8px; text-align: center;"><div style="width: 34px; height: 34px; margin: 0 auto 8px; border-radius: 999px; background: #FFD500; color: #082B5A; font-weight: 800; display: flex; align-items: center; justify-content: center;">8</div><div style="font-weight: 700;">€ [–]</div></div>
+<div style="background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.14); border-radius: 10px; padding: 14px 8px; text-align: center;"><div style="width: 34px; height: 34px; margin: 0 auto 8px; border-radius: 999px; background: #FFD500; color: #082B5A; font-weight: 800; display: flex; align-items: center; justify-content: center;">9</div><div style="font-weight: 700;">€ [–]</div></div>
+</div>
+<div style="display: flex; justify-content: space-between; align-items: center; gap: 16px; flex-wrap: wrap; border-top: 1px solid rgba(255,255,255,0.14); padding-top: 24px;">
+<span style="font-size: 13px; color: #C5D0E3;">Richtpreise für 1 Palette, Next24, zzgl. [MwSt./Dieselzuschlag – prüfen]. Staffelpreise bis 18 Paletten im Rechner.</span>
+<a href="#preis" style="display: inline-flex; align-items: center; height: 48px; padding: 0 22px; background: #FFD500; color: #082B5A; font-weight: 700; text-decoration: none; border-radius: 8px;">Meine Zone berechnen</a>
+</div>
+</div>
+</div>
+</section>
+
+<section aria-labelledby="ablauf" style="background: #F2F5FA; padding: 104px 0;">
+<div class="wrap" style="display: flex; flex-direction: column; gap: 48px;">
+<h2 id="ablauf" class="h2" style="margin: 0; font-family: 'Barlow Condensed', sans-serif; font-weight: 800; font-size: 54px; line-height: 1; text-transform: uppercase; max-width: 720px; color: #082B5A;">In drei Schritten zur Zustellung</h2>
+<div class="g3">
+<div style="background: #FFFFFF; border-radius: 14px; padding: 32px; display: flex; flex-direction: column; gap: 12px;"><span style="width: 56px; height: 56px; border-radius: 12px; background: #082B5A; color: #FFD500; font-family: 'Barlow Condensed', sans-serif; font-weight: 800; font-size: 30px; display: flex; align-items: center; justify-content: center;">01</span><h3 style="margin: 8px 0 0; font-size: 20px; color: #082B5A;">Preis berechnen</h3><p style="margin: 0; color: #3B4A63;">PLZ und Palettenanzahl eingeben – Richtpreis sofort sehen.</p></div>
+<div style="background: #FFFFFF; border-radius: 14px; padding: 32px; display: flex; flex-direction: column; gap: 12px;"><span style="width: 56px; height: 56px; border-radius: 12px; background: #082B5A; color: #FFD500; font-family: 'Barlow Condensed', sans-serif; font-weight: 800; font-size: 30px; display: flex; align-items: center; justify-content: center;">02</span><h3 style="margin: 8px 0 0; font-size: 20px; color: #082B5A;">Daten übermitteln</h3><p style="margin: 0; color: #3B4A63;">Abhol- und Zustelladresse, Maße, Wunschtermin – online oder telefonisch.</p></div>
+<div style="background: #FFFFFF; border-radius: 14px; padding: 32px; display: flex; flex-direction: column; gap: 12px;"><span style="width: 56px; height: 56px; border-radius: 12px; background: #FFD500; color: #082B5A; font-family: 'Barlow Condensed', sans-serif; font-weight: 800; font-size: 30px; display: flex; align-items: center; justify-content: center;">03</span><h3 style="margin: 8px 0 0; font-size: 20px; color: #082B5A;">Abholung &amp; Zustellung</h3><p style="margin: 0; color: #3B4A63;">Wir holen ab – Sie verfolgen den Status im Kundenportal bis zur Zustellung.</p></div>
+</div>
+</div>
+</section>
+
+<section id="leistungen" style="padding: 112px 0; background: #FFFFFF;">
+<div class="wrap" style="display: flex; flex-direction: column; gap: 48px;">
+<div style="display: flex; justify-content: space-between; align-items: flex-end; gap: 24px; flex-wrap: wrap;">
+<div style="display: flex; flex-direction: column; gap: 16px;">
+<span style="font-size: 13px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: #4A5872;">Leistungen</span>
+<h2 class="h2" style="margin: 0; font-family: 'Barlow Condensed', sans-serif; font-weight: 800; font-size: 54px; line-height: 1; text-transform: uppercase; color: #082B5A;">Vom Paket bis zur Komplettladung</h2>
+</div>
+<a href="#kontakt" style="font-weight: 700;">Individuellen Transport anfragen →</a>
+</div>
+<div class="g3">
+<a href="#next24" style="background: #082B5A; color: #FFFFFF; border-radius: 14px; padding: 28px; display: flex; flex-direction: column; gap: 14px; text-decoration: none; min-height: 220px;">
+<svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#FFD500" stroke-width="1.8" stroke-linejoin="round" aria-hidden="true"><path d="M3 7l9-4 9 4v10l-9 4-9-4z M3 7l9 4 9-4 M12 11v10"></path></svg>
+<h3 style="margin: 0; font-size: 21px; color: #FFFFFF;">Austria Next24</h3><p style="margin: 0; color: #C5D0E3; font-size: 15px;">Palettenversand österreichweit am nächsten Werktag.</p><span style="margin-top: auto; color: #FFD500; font-weight: 700; font-size: 14px;">Mehr erfahren →</span></a>
+<a href="#leistungen" style="background: #F2F5FA; border-radius: 14px; padding: 28px; display: flex; flex-direction: column; gap: 14px; text-decoration: none; min-height: 220px; color: #0B1B33;">
+<svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#082B5A" stroke-width="1.8" stroke-linejoin="round" aria-hidden="true"><path d="M4 8h16v12H4z M4 8l2-4h12l2 4 M10 12h4"></path></svg>
+<h3 style="margin: 0; font-size: 21px; color: #082B5A;">Paketdienst &amp; Nahverkehr</h3><p style="margin: 0; color: #3B4A63; font-size: 15px;">Regionale Zustellung und Touren für Netzwerkpartner.</p><span style="margin-top: auto; font-weight: 700; font-size: 14px; color: #082B5A;">Mehr erfahren →</span></a>
+<a href="#leistungen" style="background: #F2F5FA; border-radius: 14px; padding: 28px; display: flex; flex-direction: column; gap: 14px; text-decoration: none; min-height: 220px; color: #0B1B33;">
+<svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#082B5A" stroke-width="1.8" stroke-linejoin="round" aria-hidden="true"><path d="M2 6h12v10H2z M14 9h4l4 4v3h-8 M6 19a2 2 0 1 0 0-.01 M18 19a2 2 0 1 0 0-.01"></path></svg>
+<h3 style="margin: 0; font-size: 21px; color: #082B5A;">Teil- &amp; Komplettladungen</h3><p style="margin: 0; color: #3B4A63; font-size: 15px;">FTL und LTL – national und europaweit.</p><span style="margin-top: auto; font-weight: 700; font-size: 14px; color: #082B5A;">Mehr erfahren →</span></a>
+<a href="#leistungen" style="background: #F2F5FA; border-radius: 14px; padding: 28px; display: flex; flex-direction: column; gap: 14px; text-decoration: none; min-height: 220px; color: #0B1B33;">
+<svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#082B5A" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M13 3L5 14h6l-1 7 8-11h-6z"></path></svg>
+<h3 style="margin: 0; font-size: 21px; color: #082B5A;">Direkt- &amp; Sonderfahrten</h3><p style="margin: 0; color: #3B4A63; font-size: 15px;">Eilsendungen und Sondermaße – ohne Umschlag.</p><span style="margin-top: auto; font-weight: 700; font-size: 14px; color: #082B5A;">Mehr erfahren →</span></a>
+<a href="#leistungen" style="background: #F2F5FA; border-radius: 14px; padding: 28px; display: flex; flex-direction: column; gap: 14px; text-decoration: none; min-height: 220px; color: #0B1B33;">
+<svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#082B5A" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M5 18a2 2 0 1 0 0-.01 M19 6a2 2 0 1 0 0-.01 M5 16V10a4 4 0 0 1 4-4h8 M19 8v6a4 4 0 0 1-4 4H7"></path></svg>
+<h3 style="margin: 0; font-size: 21px; color: #082B5A;">Linienverkehr &amp; fixe Touren</h3><p style="margin: 0; color: #3B4A63; font-size: 15px;">Planbare Routen für Industrie und Handel.</p><span style="margin-top: auto; font-weight: 700; font-size: 14px; color: #082B5A;">Mehr erfahren →</span></a>
+<a href="#leistungen" style="background: #F2F5FA; border-radius: 14px; padding: 28px; display: flex; flex-direction: column; gap: 14px; text-decoration: none; min-height: 220px; color: #0B1B33;">
+<svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#082B5A" stroke-width="1.8" stroke-linejoin="round" aria-hidden="true"><path d="M3 21V9l9-6 9 6v12 M7 21v-8h10v8 M7 17h10"></path></svg>
+<h3 style="margin: 0; font-size: 21px; color: #082B5A;">Lagerung &amp; Umschlag</h3><p style="margin: 0; color: #3B4A63; font-size: 15px;">Zwischenlagerung und Umschlag in Allhaming.</p><span style="margin-top: auto; font-weight: 700; font-size: 14px; color: #082B5A;">Mehr erfahren →</span></a>
+</div>
+</div>
+</section>
+
+<section id="fuhrpark" class="dark" style="background: #082B5A; color: #FFFFFF; padding: 112px 0;">
+<div class="wrap g2" style="align-items: center;">
+<img src="assets/fuhrpark-luft.webp" alt="Luftaufnahme des Peherstorfer-Fuhrparks am Logistikzentrum Oberösterreich in Allhaming" style="display: block; width: 100%; aspect-ratio: 4 / 3; object-fit: cover; object-position: center 72%; border-radius: 16px;">
+<div style="display: flex; flex-direction: column; gap: 24px;">
+<span style="font-size: 13px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: #FFD500;">Fuhrpark &amp; Einsatzbereiche</span>
+<h2 class="h2" style="margin: 0; font-family: 'Barlow Condensed', sans-serif; font-weight: 800; font-size: 54px; line-height: 1; text-transform: uppercase;">Das passende Fahrzeug für jeden Auftrag</h2>
+<p style="margin: 0; color: #D5DEEC; font-size: 18px;">Vom Kastenwagen bis zum 40-Tonnen-WAB-Zug – regelmäßig gewartet, GPS-disponiert, mit Hebebühne.</p>
+<div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px;">
+<div style="display: flex; gap: 12px; align-items: center; background: rgba(255,255,255,0.06); border-radius: 10px; padding: 14px 16px; font-weight: 600;"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#FFD500" stroke-width="2.5" aria-hidden="true"><path d="M4 12l5 5L20 6"></path></svg>Paketdienste</div>
+<div style="display: flex; gap: 12px; align-items: center; background: rgba(255,255,255,0.06); border-radius: 10px; padding: 14px 16px; font-weight: 600;"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#FFD500" stroke-width="2.5" aria-hidden="true"><path d="M4 12l5 5L20 6"></path></svg>Speditionen</div>
+<div style="display: flex; gap: 12px; align-items: center; background: rgba(255,255,255,0.06); border-radius: 10px; padding: 14px 16px; font-weight: 600;"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#FFD500" stroke-width="2.5" aria-hidden="true"><path d="M4 12l5 5L20 6"></path></svg>Industrie</div>
+<div style="display: flex; gap: 12px; align-items: center; background: rgba(255,255,255,0.06); border-radius: 10px; padding: 14px 16px; font-weight: 600;"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#FFD500" stroke-width="2.5" aria-hidden="true"><path d="M4 12l5 5L20 6"></path></svg>Handel</div>
+</div>
+<a href="#fuhrpark" style="align-self: flex-start; font-weight: 700;">Fuhrpark ansehen →</a>
+</div>
+</div>
+</section>
+
+<section id="unternehmen" aria-labelledby="refs" style="padding: 112px 0; background: #FFFFFF;">
+<div class="wrap" style="display: flex; flex-direction: column; gap: 48px;">
+<h2 id="refs" class="h2" style="margin: 0; font-family: 'Barlow Condensed', sans-serif; font-weight: 800; font-size: 54px; line-height: 1; text-transform: uppercase; color: #082B5A;">Darauf verlassen sich unsere Kunden</h2>
+<div class="g3">
+<figure style="margin: 0; background: #F2F5FA; border-radius: 14px; padding: 28px; display: flex; flex-direction: column; gap: 20px;">
+<svg width="32" height="24" viewBox="0 0 32 24" aria-hidden="true"><path d="M0 24V14C0 6 4 1 12 0v5c-4 1-6 4-6 8h6v11zm18 0V14c0-8 4-13 12-14v5c-4 1-6 4-6 8h6v11z" fill="#FFD500"></path></svg>
+<blockquote style="margin: 0; font-size: 17px; line-height: 1.5;">[Originalzitat – kurz, konkret, mit Freigabe]</blockquote>
+<figcaption style="font-size: 14px; color: #4A5872; margin-top: auto;"><strong style="color: #082B5A;">[Name, Funktion]</strong><br>Anton Mitter LKW-Transportgesellschaft</figcaption></figure>
+<figure style="margin: 0; background: #F2F5FA; border-radius: 14px; padding: 28px; display: flex; flex-direction: column; gap: 20px;">
+<svg width="32" height="24" viewBox="0 0 32 24" aria-hidden="true"><path d="M0 24V14C0 6 4 1 12 0v5c-4 1-6 4-6 8h6v11zm18 0V14c0-8 4-13 12-14v5c-4 1-6 4-6 8h6v11z" fill="#FFD500"></path></svg>
+<blockquote style="margin: 0; font-size: 17px; line-height: 1.5;">[Originalzitat – kurz, konkret, mit Freigabe]</blockquote>
+<figcaption style="font-size: 14px; color: #4A5872; margin-top: auto;"><strong style="color: #082B5A;">[Name, Funktion]</strong><br>Feldbinder Spezialfahrzeuge</figcaption></figure>
+<figure style="margin: 0; background: #F2F5FA; border-radius: 14px; padding: 28px; display: flex; flex-direction: column; gap: 20px;">
+<svg width="32" height="24" viewBox="0 0 32 24" aria-hidden="true"><path d="M0 24V14C0 6 4 1 12 0v5c-4 1-6 4-6 8h6v11zm18 0V14c0-8 4-13 12-14v5c-4 1-6 4-6 8h6v11z" fill="#FFD500"></path></svg>
+<blockquote style="margin: 0; font-size: 17px; line-height: 1.5;">[Originalzitat – kurz, konkret, mit Freigabe]</blockquote>
+<figcaption style="font-size: 14px; color: #4A5872; margin-top: auto;"><strong style="color: #082B5A;">[Name, Funktion]</strong><br>ROWA-Moser Handels-GmbH</figcaption></figure>
+</div>
+</div>
+</section>
+
+<section aria-labelledby="team" style="background: #F2F5FA; padding: 112px 0;">
+<div class="wrap" style="display: flex; flex-direction: column; gap: 48px;">
+<div style="display: flex; flex-direction: column; gap: 16px; max-width: 720px;">
+<h2 id="team" class="h2" style="margin: 0; font-family: 'Barlow Condensed', sans-serif; font-weight: 800; font-size: 54px; line-height: 1; text-transform: uppercase; color: #082B5A;">Direkt erreichbar. Ohne Callcenter.</h2>
+<p style="margin: 0; font-size: 18px; color: #3B4A63;">Sie sprechen mit den Menschen, die Ihren Auftrag disponieren.</p>
+</div>
+<div class="g3">
+<div style="background: #FFFFFF; border-radius: 14px; overflow: hidden; display: flex; flex-direction: column;">
+<img src="assets/hermann.webp" alt="Hermann Peherstorfer, Geschäftsführer, vor dem Fuhrpark in Allhaming" style="display: block; width: 100%; aspect-ratio: 4 / 3; object-fit: cover; object-position: center 30%;">
+<div style="padding: 24px; display: flex; flex-direction: column; gap: 6px;"><h3 style="margin: 0; font-size: 20px; color: #082B5A;">Hermann Peherstorfer</h3><span style="color: #4A5872; font-size: 14px;">Geschäftsführer</span><a href="mailto:office@peherstorfer.co.at" style="font-weight: 600; font-size: 15px; margin-top: 8px;">office@peherstorfer.co.at</a></div></div>
+<div style="background: #FFFFFF; border-radius: 14px; overflow: hidden; display: flex; flex-direction: column;">
+<img src="assets/matthias.webp" alt="Matthias Peherstorfer, Vertriebsleiter Austria Next24, vor dem Fuhrpark in Allhaming" style="display: block; width: 100%; aspect-ratio: 4 / 3; object-fit: cover; object-position: center 30%;">
+<div style="padding: 24px; display: flex; flex-direction: column; gap: 6px;"><h3 style="margin: 0; font-size: 20px; color: #082B5A;">Matthias Peherstorfer</h3><span style="color: #4A5872; font-size: 14px;">Vertriebsleiter Austria Next24</span><a href="tel:0800241224" style="font-weight: 600; font-size: 15px; margin-top: 8px;">0800 24 12 24 (kostenlos)</a></div></div>
+<div class="dark" style="background: #082B5A; color: #FFFFFF; border-radius: 14px; padding: 32px; display: flex; flex-direction: column; gap: 16px;">
+<h3 style="margin: 0; font-family: 'Barlow Condensed', sans-serif; font-weight: 800; font-size: 32px; line-height: 1; text-transform: uppercase;">Disposition Allhaming</h3>
+<p style="margin: 0; color: #D5DEEC;">Mo–Fr 06:00–19:30 Uhr – für laufende Aufträge, Sonderfahrten und kurzfristige Anfragen.</p>
+<a href="tel:+43722720052" style="display: inline-flex; align-items: center; justify-content: center; height: 52px; background: #FFD500; color: #082B5A; font-weight: 700; border-radius: 8px; text-decoration: none;">+43 7227 200 52</a>
+<a href="mailto:dispo@peherstorfer.co.at" style="font-weight: 600;">dispo@peherstorfer.co.at</a>
+<a href="#team" style="margin-top: auto; font-size: 14px;">Alle Ansprechpartner ansehen →</a>
+</div>
+</div>
+</div>
+</section>
+
+<section aria-labelledby="faq" style="padding: 112px 0; background: #FFFFFF;">
+<div class="wrap g2" style="align-items: start;">
+<div style="display: flex; flex-direction: column; gap: 16px;">
+<h2 id="faq" class="h2" style="margin: 0; font-family: 'Barlow Condensed', sans-serif; font-weight: 800; font-size: 54px; line-height: 1; text-transform: uppercase; color: #082B5A;">Häufige Fragen</h2>
+<p style="margin: 0; color: #3B4A63; font-size: 18px;">Die fünf wichtigsten – alle weiteren auf der Next24-Seite.</p>
+<a href="#next24" style="font-weight: 700;">Alle Fragen ansehen →</a>
+</div>
+<div style="display: flex; flex-direction: column; border-top: 2px solid #082B5A;">
+<details style="border-bottom: 1px solid #DCE3EE; padding: 20px 0;"><summary style="display: flex; justify-content: space-between; gap: 16px; font-weight: 700; font-size: 18px; color: #082B5A;">Bis wann muss ich buchen, damit morgen zugestellt wird?<span class="plus" style="font-size: 26px; line-height: 1; transition: transform .2s; color: #082B5A;">+</span></summary><p style="margin: 12px 0 0; color: #3B4A63;">[Cut-off-Zeit je PLZ aus bestehender FAQ übernehmen]</p></details>
+<details style="border-bottom: 1px solid #DCE3EE; padding: 20px 0;"><summary style="display: flex; justify-content: space-between; gap: 16px; font-weight: 700; font-size: 18px; color: #082B5A;">Was ist im Grundpreis enthalten?<span class="plus" style="font-size: 26px; line-height: 1; transition: transform .2s; color: #082B5A;">+</span></summary><p style="margin: 12px 0 0; color: #3B4A63;">Abholung, Zustellung und Hebebühne. Zusatzleistungen gegen Aufpreis: [Liste ergänzen].</p></details>
+<details style="border-bottom: 1px solid #DCE3EE; padding: 20px 0;"><summary style="display: flex; justify-content: space-between; gap: 16px; font-weight: 700; font-size: 18px; color: #082B5A;">Ist meine Ware versichert?<span class="plus" style="font-size: 26px; line-height: 1; transition: transform .2s; color: #082B5A;">+</span></summary><p style="margin: 12px 0 0; color: #3B4A63;">Es gilt die Haftung nach CMR. [Höherversicherung – Angabe ergänzen]</p></details>
+<details style="border-bottom: 1px solid #DCE3EE; padding: 20px 0;"><summary style="display: flex; justify-content: space-between; gap: 16px; font-weight: 700; font-size: 18px; color: #082B5A;">Transportieren Sie Gefahrgut oder Kühlware?<span class="plus" style="font-size: 26px; line-height: 1; transition: transform .2s; color: #082B5A;">+</span></summary><p style="margin: 12px 0 0; color: #3B4A63;">[Antwort aus bestehender FAQ übernehmen]</p></details>
+<details style="border-bottom: 1px solid #DCE3EE; padding: 20px 0;"><summary style="display: flex; justify-content: space-between; gap: 16px; font-weight: 700; font-size: 18px; color: #082B5A;">Welches Zahlungsziel gilt?<span class="plus" style="font-size: 26px; line-height: 1; transition: transform .2s; color: #082B5A;">+</span></summary><p style="margin: 12px 0 0; color: #3B4A63;">14 Tage netto nach Rechnungsdatum.</p></details>
+</div>
+</div>
+</section>
+
+<section id="karriere" class="split" style="background: #FFD500; color: #082B5A;">
+<img src="assets/wabzug-sunset.webp" alt="Peherstorfer WAB-Zug und Transporter auf der Straße bei Sonnenuntergang" style="display: block; width: 100%; height: 100%; min-height: 360px; object-fit: cover;">
+<div class="split-txt" style="padding: 80px 64px; display: flex; flex-direction: column; justify-content: center; gap: 16px; max-width: 620px; box-sizing: border-box;">
+<span style="font-size: 13px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase;">Karriere · Wir suchen</span>
+<h2 class="h2" style="margin: 0; font-family: 'Barlow Condensed', sans-serif; font-weight: 800; font-size: 52px; line-height: 1; text-transform: uppercase;">Lkw-Fahrer C/CE mit C95 (m/w/d)</h2>
+<p style="margin: 0; font-size: 17px;">Fixe Touren, moderner Fuhrpark, ein Team, das Sie beim Namen kennt. [Gehalt/Benefits ergänzen]</p>
+<div style="display: flex; gap: 12px; flex-wrap: wrap; margin-top: 8px;">
+<a href="mailto:jobs@peherstorfer.co.at" style="display: inline-flex; align-items: center; height: 56px; padding: 0 28px; background: #082B5A; color: #FFFFFF; font-weight: 700; text-decoration: none; border-radius: 8px;">Jetzt bewerben</a>
+<a href="#karriere" style="display: inline-flex; align-items: center; height: 56px; padding: 0 28px; border: 2px solid #082B5A; color: #082B5A; font-weight: 700; text-decoration: none; border-radius: 8px;">Alle Jobs</a>
+</div>
+</div>
+</section>
+
+<footer id="kontakt" class="dark" style="background: #051C3D; color: #C5D0E3; padding: 88px 0 32px; font-size: 15px;">
+<div class="wrap" style="display: flex; flex-direction: column; gap: 56px;">
+<div class="g4">
+<div style="display: flex; flex-direction: column; gap: 16px;">
+<img src="assets/logo_peh.png" alt="Peherstorfer Transport &amp; Logistik" style="width: 200px; height: auto; display: block;">
+<p style="margin: 0;">Transport &amp; Logistik aus Oberösterreich. Seit 1995.</p>
+</div>
+<div style="display: flex; flex-direction: column; gap: 8px;"><h3 style="margin: 0 0 6px; color: #FFD500; font-size: 13px; text-transform: uppercase; letter-spacing: 0.1em;">Firmensitz</h3><span>Birkenweg 1<br>4131 Kirchberg ob der Donau</span><a href="tel:+437282404251">+43 7282 40 42 51</a><a href="mailto:office@peherstorfer.co.at">office@peherstorfer.co.at</a></div>
+<div style="display: flex; flex-direction: column; gap: 8px;"><h3 style="margin: 0 0 6px; color: #FFD500; font-size: 13px; text-transform: uppercase; letter-spacing: 0.1em;">Disposition</h3><span>Gewerbestraße 1<br>4511 Allhaming</span><a href="tel:+43722720052">+43 7227 200 52</a><a href="mailto:dispo@peherstorfer.co.at">dispo@peherstorfer.co.at</a></div>
+<div style="display: flex; flex-direction: column; gap: 8px;"><h3 style="margin: 0 0 6px; color: #FFD500; font-size: 13px; text-transform: uppercase; letter-spacing: 0.1em;">Austria Next24</h3><a href="tel:0800241224" style="font-weight: 700; font-size: 20px;">0800 24 12 24</a><span>kostenlos · Mo–Fr 06:00–19:30</span><a href="mailto:next24@peherstorfer.co.at">next24@peherstorfer.co.at</a></div>
+</div>
+<div style="display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; border-top: 1px solid rgba(255,255,255,0.12); padding-top: 24px; font-size: 13px;">
+<span>© 2026 Peherstorfer GmbH</span>
+<nav aria-label="Rechtliches" style="display: flex; gap: 24px; flex-wrap: wrap;"><a href="#impressum">Impressum</a><a href="#datenschutz">Datenschutz</a><a href="#agb">Beförderungsbedingungen</a><a href="#cookies">Cookie-Einstellungen</a></nav>
+</div>
+</div>
+</footer>
+
+</div>
+</body>
+</html>
